@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .nav-btn{
+        @apply bg-section-gray/50 dark:bg-nav-btn-gray-dark px-3 rounded-md;
+    }
+    .ball-bg{
+        @apply hidden w-1/3 absolute -top-36 -left-10 -z-10;
+    }
+    .new-single{
+        @apply mx-6 mt-6;
+    }
+    .img_1{
+        @apply hidden w-1/2 lg:w-7/12 xl:w-1/3;
+    }
+    .f-ic{
+        @apply flex items-center;
+    }
+    .f-ic-c{
+        @apply flex items-center flex-col
+    }
+    .f-ic-cen{
+        @apply flex items-center justify-center
+    }
+    .f-bt{
+        @apply flex justify-between
+    }
+    .media-name{
+        @apply text-2xl hidden xl:block;
+    }
+    .heading{
+        @apply text-3xl text-center font-light uppercase;
+    }
+    .new-date{
+        @apply text-base text-right;
+    }
+    .new{
+       @apply  mx-6 mt-6;
+    }
+}

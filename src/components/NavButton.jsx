@@ -1,0 +1,1 @@
+export const NavButton = (props) => <a href={`#${props.hook}`}><div className="nav-btn">{props.name}</div></a>;
